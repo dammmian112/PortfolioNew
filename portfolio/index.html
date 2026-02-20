@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damian Walczak - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/png" sizes="48x48" href="/img/kolkoStrona.png">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo" id="nav-logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">DW</span>
+                </a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">O Mnie</a></li>
+                <li><a href="#experience" class="nav-link">Doświadczenie</a></li>
+                <li><a href="#skills" class="nav-link">Umiejętności</a></li>
+                <li><a href="#projects" class="nav-link">Projekty</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+                <li><a href="indexANG.html" class="nav-link language-link">EN</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+        </div>
+        </div>
+      </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">
+                    <span class="greeting-text">Cześć, jestem</span>
+                </div>
+                <h1 class="hero-name">
+                    <span class="name-line">Damian</span>
+                    <span class="name-line">Walczak</span>
+                </h1>
+                <div class="hero-title">
+                    <span class="title-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Programista z pasją do tworzenia nowoczesnych rozwiązań webowych. 
+                    Łączę kreatywność frontendu z solidnością backendu.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>Zobacz Projekty</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Skontaktuj Się</span>
+                    </a>
+                    <a href="CVPL.pdf" download="CVPL_Damian_Walczak.pdf" class="btn btn-outline">
+                        <i class="fas fa-download"></i>
+                        <span>Pobierz CV</span>
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/dammmian112?tab=repositories" target="_blank" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+                    <a href="https://linkedin.com/in/damian-walczak-803452308" target="_blank" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <span class="window-title">portfolio.js</span>
+                    </div>
+                    <div class="window-content">
+                        <div class="code-line">
+                            <span class="code-keyword">const</span>
+                            <span class="code-variable"> developer</span>
+                            <span class="code-operator"> =</span>
+                            <span class="code-brace">{</span>
+                        </div>
+                        <div class="code-line indent">
+                            <span class="code-property">name</span>
+                            <span class="code-operator">:</span>
+                            <span class="code-string"> 'Damian Walczak'</span>
+                            <span class="code-operator">,</span>
+                        </div>
+                        <div class="code-line indent">
+                            <span class="code-property">role</span>
+                            <span class="code-operator">:</span>
+                            <span class="code-string"> 'Full Stack Developer'</span>
+                            <span class="code-operator">,</span>
+                        </div>
+                        <div class="code-line indent">
+                            <span class="code-property">passion</span>
+                            <span class="code-operator">:</span>
+                            <span class="code-string"> 'Creating amazing web experiences'</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-brace">}</span>
+                            <span class="code-operator">;</span>
+          </div>
+        </div>
+                </div>
+              </div>
+              </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+          </div>
+        </div>
+      </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01.</span>
+                <h2 class="section-title">O Mnie</h2>
+                <div class="title-line"></div>
+            </div>
+        <div class="about-content">
+          <div class="about-text">
+                    <p class="about-intro">
+                        Witam! Jestem <strong>Damian</strong> – absolwent informatyki na Politechnice Opolskiej 
+                        z pasją do programowania i tworzenia innowacyjnych rozwiązań.
+                    </p>
+            <p>
+                        Specjalizuję się w tworzeniu pełnoprawnych aplikacji webowych, łącząc nowoczesne 
+                        technologie frontendowe z solidnymi fundamentami backendowymi. Moje projekty 
+                        charakteryzują się nie tylko funkcjonalnością, ale także estetyką i dbałością 
+                        o szczegóły.
+            </p>
+            <p>
+                        Poza programowaniem interesuję się muzyką, motoryzacją i podróżami, co inspiruje 
+                        mnie do ciągłego rozwoju i poszukiwania nowych rozwiązań.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h3>Realizacja Projektów</h3>
+                                <p>Wdrożenie złożonych rozwiązań przy użyciu nowoczesnych technologii</p>
+          </div>
+            </div>
+                        <div class="highlight-item">
+              <i class="fas fa-rocket"></i>
+                            <div>
+              <h3>Kreatywność</h3>
+                                <p>Innowacyjne podejście oraz zastosowanie unikatowych rozwiązań</p>
+                            </div>
+            </div>
+                        <div class="highlight-item">
+              <i class="fas fa-users"></i>
+                            <div>
+                                <h3>Praca Zespołowa</h3>
+                                <p>Współpraca i wymiana wiedzy w ramach interdyscyplinarnych projektów</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="img/mojeZdjęcie.jpeg" alt="Damian Walczak" class="about-photo">
+                        <div class="image-border"></div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02.</span>
+                <h2 class="section-title">Doświadczenie</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Młodszy Specjalista ds. Wdrożeń</h3>
+                            <span class="timeline-date">07.2025 - 09.2025</span>
+                        </div>
+                        <p class="timeline-company">Tensoft</p>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>• Pomoc techniczna i wsparcie pracy użytkowników systemu AdAS</li>
+                                <li>• Wdrażanie i konfigurowanie produktów informatycznych</li>
+                                <li>• Kontakt z klientem</li>
+                                <li>• Udział w procesie testowania i doskonalenia systemu</li>
+                                <li>• Tworzenie wydruków i raportów dla klientów</li>
+                                <li>• Przygotowanie instrukcji i dokumentacji wdrożeniowej</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-tags">
+                            <span class="tag">Wdrożenia</span>
+                            <span class="tag">Wsparcie Techniczne</span>
+                            <span class="tag">Dokumentacja</span>
+                            <span class="tag">Kontakt z Klientem</span>
+                        </div>
+                    </div>
+              </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                <h3>Programista Systemów IT</h3>
+                            <span class="timeline-date">2024 - 2025</span>
+                        </div>
+                        <p class="timeline-company">Datamatic Opole</p>
+                        <p class="timeline-description">
+                            Realizacja projektów webowych, implementacja dynamicznych wykresów oraz 
+                            integracja danych z API. Praca z nowoczesnymi technologiami frontendowymi 
+                            i backendowymi.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Web Development</span>
+                            <span class="tag">API Integration</span>
+                            <span class="tag">Data Visualization</span>
+              </div>
+            </div>
+              </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                <h3>Korepetytor Matematyki</h3>
+                            <span class="timeline-date">2022 - 2024</span>
+                        </div>
+                        <p class="timeline-company">Remote</p>
+                        <p class="timeline-description">
+                            Prowadzenie zajęć przygotowujących do matury oraz wyjaśnienie trudnych 
+                            zagadnień w przystępny sposób. Rozwój umiejętności komunikacyjnych i 
+                            dydaktycznych.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Edukacja</span>
+                            <span class="tag">Komunikacja</span>
+              </div>
+            </div>
+              </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                <h3>Informatyka</h3>
+                            <span class="timeline-date">2022 - 2025</span>
+                        </div>
+                        <p class="timeline-company">Politechnika Opolska</p>
+                        <p class="timeline-description">
+                            Ukończenie studiów inżynierskich na kierunku Informatyka. Rozwój kompetencji 
+                            poprzez udział w projektach uczelnianych i zajęciach praktycznych. Zdobywanie 
+                            wiedzy z zakresu nowoczesnych technologii i programowania.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Studia</span>
+                            <span class="tag">Projekty Uczelniane</span>
+                        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03.</span>
+                <h2 class="section-title">Umiejętności</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-paint-brush"></i>
+                        Frontend
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>HTML5</h4>
+                                <p>Budowa logicznych struktur oraz dbałość o semantykę</p>
+                            </div>
+              </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>CSS3</h4>
+                                <p>Tworzenie responsywnych stylów i estetycznych interfejsów</p>
+                            </div>
+              </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                <i class="fab fa-js"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>JavaScript</h4>
+                                <p>Implementacja interaktywnych funkcji dla dynamicznych stron</p>
+              </div>
+              </div>
+              </div>
+              </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-node-js"></i>
+              </div>
+                            <div class="skill-info">
+                                <h4>Node.js</h4>
+                                <p>Tworzenie serwerów i aplikacji backendowych</p>
+              </div>
+              </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>C#</h4>
+                                <p>Tworzenie solidnych aplikacji w .NET</p>
+              </div>
+              </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                <i class="fas fa-database"></i>
+              </div>
+                            <div class="skill-info">
+                                <h4>SQL</h4>
+                                <p>Zarządzanie bazami danych oraz optymalizacja zapytań</p>
+            </div>
+          </div>
+        </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Inne
+                    </h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <p>Tworzenie wykresów, uczenie AI i automatyzacja zadań</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-git-alt"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>Git</h4>
+                                <p>Kontrola wersji i współpraca w zespole</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h4>DevOps</h4>
+                                <p>Podstawy wdrażania i zarządzania projektami</p>
+                            </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04.</span>
+                <h2 class="section-title">Projekty</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Wszystkie</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Nexuora -->
+                <div class="project-card" data-category="fullstack">
+              <div class="project-image">
+                        <img src="/img/nexuora1.png" alt="Nexuora">
+                        <div class="project-overlay">
+                            <a href="https://github.com/dammmian112/Nexuora" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+              </div>
+              <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Full Stack</span>
+                            <span class="project-tag">Node.js</span>
+                        </div>
+                        <h3 class="project-title">Portal Społecznościowy</h3>
+                        <p class="project-description">
+                            Portal społecznościowy umożliwiający dodawanie relacji, publikowanie postów 
+                            oraz budowanie sieci znajomych. System oferuje rejestrację i logowanie użytkownika.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>JSON</span>
+                        </div>
+                        <button class="project-details-btn" data-project="nexuora">Szczegóły</button>
+                  </div>
+                </div>
+
+                <!-- Project 2: Portfolio -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="/img/portofliologo.png" alt="Portfolio">
+                        <div class="project-overlay">
+                            <a href="https://github.com/dammmian112/Portfolio-Damian-Walczak" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+              </div>
+            </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Frontend</span>
+                            <span class="project-tag">Design</span>
+              </div>
+                        <h3 class="project-title">Portfolio</h3>
+                        <p class="project-description">
+                            Strona Portfolio prezentuje zbiór projektów, łącząc nowoczesny design 
+                            z przejrzystą nawigacją i responsywnym interfejsem.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <button class="project-details-btn" data-project="portfolio">Szczegóły</button>
+                  </div>
+                </div>
+
+                <!-- Project 3: Kalkulator Online -->
+                <div class="project-card" data-category="frontend">
+                    <div class="project-image">
+                        <img src="/img/kalkulatorOnlineLogo.png" alt="Kalkulator Online">
+                        <div class="project-overlay">
+                            <a href="https://github.com/dammmian112/KalkulatorOnline" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+              </div>
+            </div>                  
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Frontend</span>
+                            <span class="project-tag">Utility</span>
+              </div>
+                        <h3 class="project-title">Kalkulator Online</h3>
+                        <p class="project-description">
+                            Kalkulator Online to narzędzie umożliwiające szybkie wykonywanie różnorodnych 
+                            obliczeń – od analizy finansowej po obliczenia zdrowotne.
+                        </p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>JSON</span>
+                        </div>
+                        <button class="project-details-btn" data-project="kalkulator">Szczegóły</button>
+                  </div>
+                </div>
+
+                <!-- Project 4: Pixel Bay -->
+                <div class="project-card" data-category="backend">
+                    <div class="project-image">
+                        <img src="/img/PIXELBAY LOGO.png" alt="Pixel Bay">
+                        <div class="project-overlay">
+                            <a href="https://github.com/dammmian112/Pixel-Bay" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+              </div>
+            </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Game Dev</span>
+                            <span class="project-tag">C#</span>
+              </div>
+                        <h3 class="project-title">Pixel Bay</h3>
+                        <p class="project-description">
+                            Projekt Pixel Bay to gra stworzona od zera, bez korzystania z gotowych tekstur. 
+                            Gracz ma do wyboru trzy retro mini gry 2D.
+                        </p>
+                        <div class="project-tech">
+                            <span>GDScript</span>
+                            <span>C++</span>
+                            <span>C#</span>
+                            <span>Python</span>
+                  </div>
+                        <button class="project-details-btn" data-project="pixelbay">Szczegóły</button>
+                </div>
+              </div>
+            </div>
+            <div class="projects-footer">
+                <a href="https://github.com/dammmian112?tab=repositories" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i>
+                    <span>Zobacz Więcej Projektów</span>
+                </a>
+            </div>
+            </div>
+      </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05.</span>
+                <h2 class="section-title">Kontakt</h2>
+                <div class="title-line"></div>
+            </div>
+            <div class="contact-content">
+          <div class="contact-info">
+                    <h3>Skontaktuj się ze mną</h3>
+                    <p>Masz pytanie lub chcesz nawiązać współpracę? Śmiało napisz!</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:damian.walczak1212@gmail.com">damian.walczak1212@gmail.com</a>
+                            </div>
+            </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Telefon</h4>
+                                <a href="tel:+48794730009">+48 794 730 009</a>
+                            </div>
+            </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Lokalizacja</h4>
+                                <p>Kraków, Polska</p>
+                            </div>
+                        </div>
+            </div>
+                    <div class="contact-social">
+                        <a href="https://github.com/dammmian112?tab=repositories" target="_blank" class="social-link">
+                <i class="fab fa-github"></i>
+              </a>
+                        <a href="https://linkedin.com/in/damian-walczak-803452308" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+              </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Imię</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Wiadomość</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <span>Wyślij Wiadomość</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2025 Damian Walczak. Wszelkie prawa zastrzeżone.</p>
+                <a href="#home" class="scroll-to-top">
+            <i class="fas fa-arrow-up"></i>
+          </a>
+            </div>
+        </div>
+      </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
